@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "echo360"
+version = "0.1.0"
+description = "Utility to download echo360 videos to disc."
+authors = ["Wolf Mermelstein <wolfmermelstein@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dateutil = "^2.9.0.post0"
+selenium = "^4.21.0"
+ffmpy = "^0.3.2"
+requests = "^2.32.3"
+gevent = "^24.2.1"
+wget = "^3.2"
+pick = "^2.3.2"
+tqdm = "^4.66.4"
+
+[tool.poetry.scripts]
+echo360 = "echo360.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
