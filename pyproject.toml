@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "echo360"
+name = "echo360-downloader"
 version = "0.1.0"
 description = "Utility to download echo360 videos to disc."
 authors = ["Wolf Mermelstein <wolfmermelstein@gmail.com>"]
